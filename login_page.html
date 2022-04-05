@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign up/Login</title>
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+
+<!-- internal css -->
+<style>
+body { background-color: rgba(3, 202, 252, 0.3); }
+
+h1 { text-shadow: 5px 5px 5px #898c8c; }
+
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+</head>
+
+<body>
+<center>
+
+<!-- sign up page -->
+<h1>SignUp</h1>
+<form>
+<div class="field">
+  <label class="label">Name: </label>
+    <input class="input" type="text" placeholder="Enter your name">
+<br><br>
+  <label class="label">Username: </label>
+    <input class="input" type="text" placeholder="Enter username">
+<br><br>
+  <label class="label">Email: </label>
+    <input class="input" type="email" placeholder="Enter your Email" value=" ">
+<br><br>
+  <label class="label">password: </label>
+    <input class="input" type="password" placeholder="Enter your Password">
+<br><br>
+  <label class="label">Country: </label>
+    <span class="select">
+      <select>
+        <option value="-1" selected>Select</option>
+        <option value="india">India</option>
+        <option value="london">London</option>
+        <option value="paris">Paris</option>
+        <option value="korea">Korea</option>
+        <option value="japan">Japan</option>
+        <option value="canada">Canada</option>
+      </select>
+    </span>
+<br><br>
+  <label class="checkbox">
+      <input type="checkbox">
+      I agree to the <a href="#">Terms and Conditions</a>
+  </label>
+<br><br>
+  <span class="control">
+    <button class="button1" onclick="myFunction1()">Submit</button>
+    <button class="button2" onclick="myFunction2()">Cancel</button>
+  </span>
+</div>
+</form>
+
+<!-- login page -->
+<p> if you are already a registered user then click on login </p>
+
+<h1>Login</h1>
+<form>
+<div class='field'>
+ <label class="label">Email: </label>
+    <input class="input" type="email" placeholder="Enter your Email" value=" ">
+<br><br>
+  <label class="label">password: </label>
+    <input class="input" type="password" placeholder="Enter your Password">
+<br><br>
+  <a href='#'>Forgot your password </a>
+<br><br>
+  <button class="button1" onclick="myFunction1()">Submit</button>
+</form>
+</center>
+
+<!-- internal javascript -->
+<script>
+function myFunction1() {
+    alert("Are you sure to submit!!");
+}
+function myFunction2() {
+    alert("Are you sure to cancel!!");
+}
+</script>
+
+</body>
+</html>

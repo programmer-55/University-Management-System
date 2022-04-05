@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        /* Style the icon bar links */
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 15px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Style the social media icons with color */
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+
+        .facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .github {
+            background: black;
+            color: white;
+        }
+
+        .linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+nav {
+    padding: 7px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #dddddd;
+    gap: 20px;
+}
+
+.univ-logo img {
+    height: 100px;
+}
+
+.univ-heading {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: #537893;
+}
+
+.mid-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    background-color: #a9cde8;
+}
+
+.card2 img {
+    width: 350px;
+}
+
+.buttons {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+     background-color: #a9cde8;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#aboutus {color: black;
+    padding: 20px;
+    text-align: center; 
+    font-stretch: expanded;
+     background-color: #a9cde8;
+     }
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.card2 a:hover {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
